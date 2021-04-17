@@ -1,0 +1,192 @@
+/* header section */
+/* universal rules */
+main{
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+
+.body-color{
+    color:#F4A15D;
+}
+
+body{
+    background-color: #FDF3E2;
+    width: 90%;
+    margin: 0px auto;
+}
+
+h1{
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 35px;
+    
+}
+
+h2{
+    Font-Family: 'Cabin', Sans-Serif;
+    letter-spacing: 1px;
+    color: #F4A15D;
+    
+}
+
+/* float section left */
+
+.float-left{
+    float: left;
+}
+
+
+
+/* color section */
+
+.colors-section{
+    width:28%;
+    background-color: #424242;
+    padding: 20px;
+    /* margin: 0 2.6px; */
+    height: 100%;
+    
+}
+#color-1{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #FDF3E2;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#color-2{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:#F4A15D;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#color-3{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:#7CB7DE;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#color-4{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:#d286d4;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: none;
+}
+
+/* adding animation */
+
+#color-1:hover span{
+    display: block; 
+    animation: fadeIn linear 1s;
+}
+#color-2:hover span{
+    display: block; 
+    animation: fadeIn linear 1s;
+}
+#color-3:hover span{
+    display: block; 
+    animation: fadeIn linear 1s;
+}
+#color-4:hover span{
+    display: block; 
+    animation: fadeIn linear 1s;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+ /* Background color decrease  */
+
+#color-1:hover{
+    opacity: 95%;
+}
+#color-2:hover{
+    opacity: 95%;
+}
+#color-3:hover{
+    opacity: 95%;
+}
+#color-4:hover{
+    opacity: 95%;
+}
+
+
+/* font-section usage  */
+
+.roboto-font{
+    Font-Family: 'Roboto', Sans-Serif;
+    text-decoration: underline;
+}
+.roboto-style-1{
+    Font-Family: 'Roboto', Sans-Serif;
+    font-weight: 400;
+}
+.roboto-style-2{
+    Font-Family: 'Roboto', Sans-Serif;
+    font-weight: 600;
+}
+
+
+.roboto-font-condensed{
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    text-decoration: underline;
+}
+.roboto-condensed-style-1{
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    font-weight: 400;
+
+}
+.roboto-condensed-style-2{
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    font-weight: 600;
+
+}
+
+.cabin-font{
+    Font-Family: 'Cabin', Sans-Serif;
+    text-decoration: underline;
+        
+}
+.font-section{
+    width:28%;
+    background-color: #424242;
+    padding: 20px;
+    margin: 0px 30px;
+    height: 100%;
+}
+
+/* Text style section */
+
+.text-style-section{
+    width:28%;
+    background-color: #424242;
+    padding: 20px;
+    height: 100%;
+}
+
+
+
+
+
